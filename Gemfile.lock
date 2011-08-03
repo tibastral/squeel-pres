@@ -1,0 +1,35 @@
+GIT
+  remote: git@github.com:tibastral/makers-mark.git
+  revision: c6083ae840e17cd539d74c8712ede5f593c8a763
+  specs:
+    makers-mark (0.1.1)
+      bluecloth (>= 2.0.0)
+      nokogiri
+
+GIT
+  remote: git@github.com:tibastral/slidedown.git
+  revision: f66f9b834cf901f3349a471c3d8cfb8daccd2a34
+  specs:
+    slidedown (0.2.0)
+      makers-mark
+      nokogiri
+      open4
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    bluecloth (2.0.9)
+    haml (3.0.25)
+    nokogiri (1.4.4)
+    open4 (1.0.1)
+    pygmentize (0.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  haml
+  makers-mark!
+  open4
+  pygmentize
+  slidedown!
